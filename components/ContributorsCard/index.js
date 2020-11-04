@@ -1,6 +1,8 @@
 import styles from "./ContributorsCard.module.css";
 
-const ContributorsCard = ({ contributor }) => {
+import Button from "../Button";
+
+const ContributorsCard = ({ contributor, seeContributorsRepo }) => {
   return (
     <div className={styles.card}>
       <div className="row space-between">
@@ -25,7 +27,12 @@ const ContributorsCard = ({ contributor }) => {
         </p>
       </div>
       <div className="row center">
-        <button className={styles.seeRepos}>View repositories</button>
+        <Button
+          className={styles.seeRepos}
+          onClick={() => seeContributorsRepo(contributor.login)}
+        >
+          View repositories
+        </Button>
       </div>
     </div>
   );
