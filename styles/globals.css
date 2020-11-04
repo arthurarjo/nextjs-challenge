@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 :root {
-  --main-blue: #4474FF;
+  --main-blue: #4474ff;
   --grey-dark: #121212;
   --grey-dark2: #545454;
-  --grey-mid: #E5E5E5;
+  --grey-mid: #e5e5e5;
   --grey-mid2: #c4c4c4;
 }
 
@@ -12,7 +12,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: var(--grey-mid);
 }
 
@@ -27,8 +27,23 @@ a {
 
 .wrapper {
   margin-right: auto;
-  margin-left:  auto;
+  margin-left: auto;
   max-width: 1440px;
   padding-right: 5%;
-  padding-left:  5%;
+  padding-left: 5%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
 }
