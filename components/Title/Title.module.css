@@ -1,0 +1,8 @@
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--grey-dark);
+  border-bottom: 1px var(--grey-mid2) solid;
+  padding-bottom: 10px;
+}
