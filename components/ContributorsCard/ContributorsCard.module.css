@@ -1,0 +1,45 @@
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  flex: 1 0 21%;
+  padding: 20px;
+  margin: 5px;
+  max-width: 264px;
+  display: flex;
+  flex-direction: column;
+}
+.image img {
+  border: 5px solid #ecf2ff;
+}
+.login {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--grey-dark);
+  margin: 5px 0 0 0;
+}
+.contributions {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-dark2);
+  margin: 0 0 5px 0;
+}
+.seeRepos {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-blue);
+  background: #fff;
+  padding: 5px 10px;
+  border: 2px solid var(--main-blue);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.seeRepos:focus {
+  outline: none;
+}
